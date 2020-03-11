@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    height: 90%;
+    width: 50%;
+    object-position: bottom;
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#about {
+    position: absolute;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 45%;
+    /*margin-right: 30%;*/
+    float: left;
+    
+}
+
+h3 {
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: blue;
+    text-align: left;
+    position: 50px;
+        
+}
+h1 {
+    display: block;
+    /*font-size: 100px;*/
+    font-weight: bolder;
+    font-style: normal;
+    color: goldenrod;
+    block-size: 5cm;
+    width: 20cm;
+    text-align: left;
+    text-justify: auto;
+}
+p {
+    display: block;
+    font: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#buttons {
+    font-size: 24px;
+    width: 120%;
+    /*display: flex;*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 80px;
+    position: relative;
+}
+
+button.MORE-INFO {
+    font-size: 20px;
+    /*width: 25%;*/
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 2%;
+    margin: auto;
+}
+
+button.MORE-INFO:hover {
+    background-color: rgb(75, 75, 3);
+    color: whitesmoke;
+}
+
+button.MORE-INFO:active {
+    background-color: rgb(75, 75, 3);
+}
+
+button.PORTFOLIO {
+    font-size: 20px;
+    /*width: 25%;*/
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 2%;
+    margin: auto;
+}
+
+button.PORTFOLIO:hover {
+    background-color: rgb(75, 75, 3);
+    color: whitesmoke;
+}
+button.PORTFOLIO:active {
+    background-color: rgb(75, 75, 3);
+}
+
+i.fa-user {
+    color:royalblue;
+    align-self: start;;
+    margin-right: 10px;
+}
+
+i.fa-briefcase {
+    color: royalblue;
+    align-self: start;;
+    margin-right: 10px;
+}
